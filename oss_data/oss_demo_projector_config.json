@@ -1,0 +1,30 @@
+{
+    "embeddings": [
+        {
+            "metadataPath": "oss_data/images.tsv",
+            "sprite": {
+                "imagePath": "oss_data/images.png",
+                "singleImageDim": [
+                    24,
+                    24
+                ]
+            },
+            "tensorName": "images",
+            "tensorPath": "oss_data/images.bytes",
+            "tensorShape": [
+                500,
+                48
+            ]
+        },
+        {
+            "metadataPath": "oss_data/words.tsv",
+            "tensorName": "words",
+            "tensorPath": "oss_data/words.bytes",
+            "tensorShape": [
+                500,
+                48
+            ]
+        }
+    ],
+    "modelCheckpointPath": "Demo datasets"
+}
